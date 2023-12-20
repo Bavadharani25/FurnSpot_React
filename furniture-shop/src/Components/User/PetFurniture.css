@@ -1,0 +1,55 @@
+.PetFurniture-ProductsList {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .PetFurniture-cardproduct {
+    background-color: #d1cece;
+    height: 600px;
+    width: 400px;
+    margin-top: 20px;
+  }
+  
+  .PetFurniutre-ProductsImg {
+    width: 350px;
+    height: 350px;
+    margin-top: 10px;
+  }
+  
+  .PetFurniture-ProductsTitle {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #111213;
+  }
+  
+  .PetFurniture-ProductsCategory {
+    font-size: 1rem;
+    color: #181818;
+  }
+  
+  .PetFurniture-ProductsPrice {
+    font-size: 1rem;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .PetFurniture-ProductscartBtn,
+  .PetFurniture-ProductsWishlistBtn {
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .PetFurniture-ProductsList {
+      justify-content: center;
+    }
+  }
+  
+  .PetFurniture-ProductscartBtn {
+    margin-right: 50px;
+  }
+  
+  .PetFurniture-ProductsWishlistBtn {
+    margin-left: 50px;
+  }

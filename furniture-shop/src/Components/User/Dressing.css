@@ -1,0 +1,55 @@
+.Dressing-ProductsList {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .Dressing-cardproduct {
+    background-color: #d1cece;
+    height: 600px;
+    width: 400px;
+    margin-top: 20px;
+  }
+  
+  .Dressing-ProductsImg {
+    width: 350px;
+    height: 350px;
+    margin-top: 10px;
+  }
+  
+  .Dressing-ProductsTitle {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #111213;
+  }
+  
+  .Dressing-ProductsCategory {
+    font-size: 1rem;
+    color: #181818;
+  }
+  
+  .Dressing-ProductsPrice {
+    font-size: 1rem;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .Dressing-ProductscartBtn,
+  .Dressing-ProductsWishlistBtn {
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .Dressing-ProductsList {
+      justify-content: center;
+    }
+  }
+  
+  .Dressing-ProductscartBtn {
+    margin-right: 50px;
+  }
+  
+  .Dressing-ProductsWishlistBtn {
+    margin-left: 50px;
+  }

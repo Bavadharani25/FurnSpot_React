@@ -1,0 +1,55 @@
+.Modernwriting-ProductsList {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .Modernwriting-cardproduct {
+    background-color: #d1cece;
+    height: 600px;
+    width: 400px;
+    margin-top: 20px;
+  }
+  
+  .Modernwriting-ProductsImg {
+    width: 350px;
+    height: 350px;
+    margin-top: 10px;
+  }
+  
+  .Modernwriting-ProductsTitle {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #111213;
+  }
+  
+  .Modernwriting-ProductsCategory {
+    font-size: 1rem;
+    color: #181818;
+  }
+  
+  .Modernwriting-ProductsPrice {
+    font-size: 1rem;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .Modernwriting-ProductscartBtn,
+  .Modernwriting-ProductsWishlistBtn {
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .Modernwriting-ProductsList {
+      justify-content: center;
+    }
+  }
+  
+  .Modernwriting-ProductscartBtn {
+    margin-right: 50px;
+  }
+  
+  .Modernwriting-ProductsWishlistBtn {
+    margin-left: 50px;
+  }

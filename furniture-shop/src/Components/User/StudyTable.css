@@ -1,0 +1,55 @@
+.StudyTable-ProductsList {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .StudyTable-cardproduct {
+    background-color: #d1cece;
+    height: 600px;
+    width: 400px;
+    margin-top: 20px;
+  }
+  
+  .StudyTable-ProductsImg {
+    width: 350px;
+    height: 350px;
+    margin-top: 10px;
+  }
+  
+  .StudyTable-ProductsTitle {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #111213;
+  }
+  
+  .StudyTable-ProductsCategory {
+    font-size: 1rem;
+    color: #181818;
+  }
+  
+  .StudyTable-ProductsPrice {
+    font-size: 1rem;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .StudyTable-ProductscartBtn,
+  .StudyTable-ProductsWishlistBtn {
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .StudyTable-ProductsList {
+      justify-content: center;
+    }
+  }
+  
+  .StudyTable-ProductscartBtn {
+    margin-right: 50px;
+  }
+  
+  .StudyTable-ProductsWishlistBtn {
+    margin-left: 50px;
+  }

@@ -1,0 +1,55 @@
+.Shoe-ProductsList {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .Shoe-cardproduct {
+    background-color: #d1cece;
+    height: 600px;
+    width: 400px;
+    margin-top: 20px;
+  }
+  
+  .Shoe-ProductsImg {
+    width: 350px;
+    height: 350px;
+    margin-top: 10px;
+  }
+  
+  .Shoe-ProductsTitle {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #111213;
+  }
+  
+  .Shoe-ProductsCategory {
+    font-size: 1rem;
+    color: #181818;
+  }
+  
+  .Shoe-ProductsPrice {
+    font-size: 1rem;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .Shoe-ProductscartBtn,
+  .Shoe-ProductsWishlistBtn {
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .Shoe-ProductsList {
+      justify-content: center;
+    }
+  }
+  
+  .Shoe-ProductscartBtn {
+    margin-right: 50px;
+  }
+  
+  .Shoe-ProductsWishlistBtn {
+    margin-left: 50px;
+  }

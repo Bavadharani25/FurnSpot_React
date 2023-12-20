@@ -1,0 +1,55 @@
+.DiningSet-ProductsList {
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.DiningSet-cardproduct {
+  background-color: #d1cece;
+  height: 600px;
+  width: 400px;
+  margin-top: 20px;
+}
+
+.DiningSet-ProductsImg {
+  width: 350px;
+  height: 350px;
+  margin-top: 10px;
+}
+
+.DiningSet-ProductsTitle {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #111213;
+}
+
+.DiningSet-ProductsCategory {
+  font-size: 1rem;
+  color: #181818;
+}
+
+.DiningSet-ProductsPrice {
+  font-size: 1rem;
+  color: #555;
+  font-weight: bold;
+}
+
+.DiningSet-ProductscartBtn,
+.DiningSet-ProductsWishlistBtn {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .DiningSet-ProductsList {
+    justify-content: center;
+  }
+}
+
+.DiningSet-ProductscartBtn {
+  margin-right: 50px;
+}
+
+.DiningSet-ProductsWishlistBtn {
+  margin-left: 50px;
+}

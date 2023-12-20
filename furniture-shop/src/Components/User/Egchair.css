@@ -1,0 +1,55 @@
+.Egchair-ProductsList {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .Egchair-cardproduct {
+    background-color: #d1cece;
+    height: 600px;
+    width: 400px;
+    margin-top: 20px;
+  }
+  
+  .Egchair-ProductsImg {
+    width: 350px;
+    height: 350px;
+    margin-top: 10px;
+  }
+  
+  .Egchair-ProductsTitle {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #111213;
+  }
+  
+  .Egchair-ProductsCategory {
+    font-size: 1rem;
+    color: #181818;
+  }
+  
+  .Egchair-ProductsPrice {
+    font-size: 1rem;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .Egchair-ProductscartBtn,
+  .Egchair-ProductsWishlistBtn {
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .Egchair-ProductsList {
+      justify-content: center;
+    }
+  }
+  
+  .Egchair-ProductscartBtn {
+    margin-right: 50px;
+  }
+  
+  .Egchair-ProductsWishlistBtn {
+    margin-left: 50px;
+  }
