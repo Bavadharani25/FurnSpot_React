@@ -1,10 +1,10 @@
-FURNSPOT (FurnitureStore)
+## FURNSPOT (FurnitureStore)
 
 Welcome to FURNSPOT, where we bring style, comfort, and functionality together to create the perfect living spaces. 
 Our passion for quality craftsmanship and timeless design is reflected in every piece of furniture we curate for your home.
 This is my individual project based on React.
 
-FEATURES
+## FEATURES
 
 1. User Login and Sign Up Page
 2. Admin Login Page
@@ -13,7 +13,7 @@ FEATURES
 5. Add To WishList Page
 6. Add To Cart Page
 
-SAMPLE PAGE IMAGES
+## SAMPLE PAGE IMAGES
 
 1. HOME PAGE
 
