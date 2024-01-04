@@ -25,7 +25,7 @@ This is my individual project based on React.
 
 ![User_Login_Page](https://github.com/Bavadharani25/FurnSpot_React/assets/125265988/f2a0b330-0863-4dab-bca8-452e8edab01f)
 
-3. PRODUCTS LIST PAGE 
+PRODUCTS LIST PAGE 
 
  1. SOFA_PRODUCTS
 
